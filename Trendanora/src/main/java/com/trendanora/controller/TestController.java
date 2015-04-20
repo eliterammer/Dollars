@@ -11,7 +11,7 @@ public class TestController {
 	@RequestMapping("/test")
 	public String getPersonDetail(@RequestParam(value = "id",required = false,
 	                                                    defaultValue = "0") Integer id) {
-		return new String("sample : "+id);
+		return new String("sample -:- "+id);
 	}
 
 } 
